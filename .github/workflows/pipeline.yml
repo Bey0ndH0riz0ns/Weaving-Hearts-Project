@@ -1,0 +1,17 @@
+name: Renpy construction pipeline
+
+on:
+  push:
+    branches:
+      - main
+    pull_request:    
+      branches: [main]    
+      types: [opened, synchronize]
+
+jobs:
+  hello_world_job:
+    runs-on: ubuntu-20.04
+    steps:
+      - name: Say Hello
+        run: |
+          echo "Hello World!"
