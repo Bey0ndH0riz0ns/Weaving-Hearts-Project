@@ -9,7 +9,7 @@ on:
       types: [opened, synchronize]
 
 jobs:
-  hello_world_job:
+  constructing:
     runs-on: ubuntu-latest
     steps:
       - name: checkout repo content
@@ -19,5 +19,7 @@ jobs:
         with:
           python-version: 3.8 #install the python needed
       - name: execute py script 
+        working-directory: Scripts
         run: |
-          python Scripts\constructor.py
+          python constructor.py
+          
