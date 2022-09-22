@@ -10,8 +10,14 @@ on:
 
 jobs:
   hello_world_job:
-    runs-on: ubuntu-20.04
+    runs-on: ubuntu-latest
     steps:
-      - name: Say Hello
+      - name: checkout repo content
+        uses: actions/checkout@v2 
+      - name: setup python
+        uses: actions/setup-python@v2
+        with:
+          python-version: 3.8 #install the python needed
+      - name: execute py script 
         run: |
-          echo "Hello World!"
+          python Scripts\constructor.py
