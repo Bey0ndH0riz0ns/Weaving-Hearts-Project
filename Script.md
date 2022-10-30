@@ -242,7 +242,7 @@ mc  "I’ll be there!"
     
 mc  "(I love this town.)"
     
--Scene end
+-Scene End
 
 Prologue, Scene 3
     

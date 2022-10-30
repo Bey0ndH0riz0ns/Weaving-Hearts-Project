@@ -555,7 +555,7 @@ label prologue_qna:
     mc  "(...but wait, what about the first part? She didn’t outright deny it. It’s more like she… tried to avoid it. Whatever the case, I’ll try my best to show her my support.)"
     #[Scene fades to black]
     mc  "(The panel continued on with nothing else special happening. After a series of answered questions, Scarlett thanked everyone for coming, and she retired backstage while the crowd dispersed towards the exit. After we left the venue, Brandon and I walked back to the train station. On the train, I told Brandon what I thought of her avoiding the question, and he replied that it’s just her business and she doesn’t have to tell anybody. After we got off the train, we walked down to our houses, said our good nights, and turned in for some sleep.)"
-    "{i}scene_bookend end{/i}"
+    "{i}Scene End{/i}"
     scene b-blackscreen with dissolve
     pause 1 # "
 label prologue_concert_end:
@@ -702,7 +702,7 @@ label prologue_concert_end:
     mc  "(I love this town.)"
     scene b-blackscreen with dissolve
     pause 1 # "
-    "{i}This is the end of the WIP script{/i}"
+    "{i}Scene End{/i}"
     #this is a test line from Able98Able98
     #This is another test line from able98able98
 label wholesome_library:
