@@ -1,7 +1,7 @@
 from logging import exception
 import re
 rpyFile = open('script.rpy', 'r')
-scpFile = open('TestScript.md', 'r')
+scpFile = open('TestScript2.md', 'r')
 lintedFile = open('linted.rpy','w')
 
 #Script = []
