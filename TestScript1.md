@@ -4,13 +4,13 @@ Prologue, Scene 1
 
 #[mc is seated on a bench in the city’s largest park, gazing into the darkening sky]
 
-"(Some kind of profound monologue regarding his current view of the world, idfk)"
+mc "(Some kind of profound monologue regarding his current view of the world, idfk.)"
 
 mc  "(I was so lost in thought that I hadn’t noticed how long I had been sitting here, waiting.)"
 
 #[A can of chilled soda appears as the text is read]
 
-mc  "(It was only when I had felt the touch of an ice cold object pressed against the nape of my neck that I realized I had been daydreaming)"
+mc  "(It was only when I had felt the touch of an ice cold object pressed against the nape of my neck that I realized I had been daydreaming.)"
 
 #[Silhouette of Brandon’s sprite appears, as screen shakes to signify mc jolting up]
 

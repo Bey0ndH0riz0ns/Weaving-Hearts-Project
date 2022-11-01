@@ -1,7 +1,7 @@
 from logging import exception
 import re
 rpyFile = open('script.rpy', 'r')
-scpFile = open('TestScript3.md', 'r')
+scpFile = open('Script.md', 'r')
 lintedFile = open('linted.rpy','w')
 
 #Script = []
@@ -60,7 +60,7 @@ for data in scpFile.readlines():
 
 beginningPattern = re.compile("    \"{i}([A-Za-z]+, [A-Za-z]+ [0-9]\*){\/i}\"")
 endPattern = re.compile("    \"{i}Scene End{\/i}\"")
-dialogPattern = re.compile("(    ([a-z])+ +\".+\")|(    \"[A-Za-z ]+\" \".+\")|(    \"\.\.\.\")")
+dialogPattern = re.compile("(    ([a-z])+ +\".+\")|(    \"[A-Za-z ]+\" \".+\")|(    \"\.\.\.\")|(    \"\(.+\)\")") # Problems here
 commentPattern = re.compile("    #.+")
 settingPattern = re.compile("    \"{i}[A-Za-z? ]+{\/i}\"")
 
