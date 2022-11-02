@@ -67,4 +67,4 @@ for data in rpyFile.readlines():
         #print('')
         row = row + 1
         
-    lintedFile.write(line)
+    lintedFile.write(data)
